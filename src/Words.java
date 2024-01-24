@@ -7,7 +7,8 @@ import java.util.Scanner;
 
 public class Words {
     String word;
-    Scanner scanner = new Scanner(new File("C:\\Users\\belgrano\\IdeaProjects\\Project 1_Hangman\\src\\russian_nouns.txt"));
+//    Scanner scanner = new Scanner(new File("C:\\Users\\belgrano\\IdeaProjects\\Project 1_Hangman\\src\\russian_nouns.txt"));
+    Scanner scanner = new Scanner(new File("P:\\Projects\\Java\\src\\russian_nouns.txt"));
     Random randomWord = new Random();
     List<String> words = new ArrayList<>();
     Scanner scannerForLetter = new Scanner(System.in);

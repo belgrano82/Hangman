@@ -39,7 +39,7 @@ public class Main {
                 System.out.println(charsInAsterisks);
 
                 while (true) {
-                    System.out.println("Ведите букву:");
+                    System.out.println("Введите букву:");
                     char letter = word.getLetter();
                     int appearanceOfLetter = charsRandomWord.indexOf(letter);
 
